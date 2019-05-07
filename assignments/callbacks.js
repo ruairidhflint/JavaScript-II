@@ -74,8 +74,23 @@ contains("Notebook", items, function(first){
 
 // /* STRETCH PROBLEM */
 
-// function removeDuplicates(array, cb) {
+const myNewArr = [1, 2, 4, 5, 3, 3, 5, 2];
+
+function removeDuplicates(array, cb) {
+
+   let noDupes = new Set(array);
+   return cb(noDupes)
+
 //   // removeDuplicates removes all duplicate values from the given array.
 //   // Pass the duplicate free array to the callback function.
 //   // Do not mutate the original array.
-// }
+
+}
+
+removeDuplicates(myNewArr, function(first){
+  console.log(first)
+});
+
+
+let dupliateFreeArray = Array.from
+
