@@ -1,6 +1,16 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function multiplyBy(num){
+
+  return function (num2){
+    return num1 * num2;
+  };
+
+}
+
+let timesTwelve = multiplyBy(12);
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
